@@ -9,7 +9,6 @@ function App() {
             <Main></Main>
             <Footer></Footer>
         </>
-        
     )
 }
 

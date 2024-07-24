@@ -1,0 +1,28 @@
+:root
+{
+    --color1: beige;
+    --color2: darkgreen;
+    --color3: hsl(0, 100%, 50%);
+
+    --gradient: linear-gradient(0deg, var(--color3), var(--color1));
+}
+
+body
+{
+    margin: 0;
+    background-color: var(--color1);
+    color: var(--color2);
+    overflow: hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a
+{
+    color: var(--color1);
+    text-decoration: none;
+}
+a:hover
+{
+    background: var(--gradient);
+    background-clip: text;
+    color: transparent;
+}
