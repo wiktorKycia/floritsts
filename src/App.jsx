@@ -6,7 +6,11 @@ function App() {
     return(
         <>
             <Header></Header>
-            <Main></Main>
+            <Main>
+                <ContentSection title="Bestsellers of 2024">
+
+                </ContentSection>
+            </Main>
             <Footer></Footer>
         </>
     )
