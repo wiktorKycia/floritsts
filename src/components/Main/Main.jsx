@@ -1,10 +1,11 @@
 import HeroSection from "../HeroSection/HeroSection.jsx";
 
 
-function Main() {
+function Main(props) {
     return(
         <main>
             <HeroSection/>
+            {props.children}
         </main>
     );
 }
