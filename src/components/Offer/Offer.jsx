@@ -3,13 +3,13 @@ import styles from './Offer.module.css';
 function Offer(props)
 {
     return(
-        <div className={styles.image}>
-            <img src={props.image} alt="flower" />
-            <div id="overlay">
-                <p>{props.text}</p>
-                <button>order now</button>
+        <article className={styles.article}>
+            <img src={props.image} alt="flower" className={styles.img}/>
+            <div className={styles.overlay}>
+                <p className={styles.offertext}>{props.text}</p>
+                <button className={styles.button}>order now</button>
             </div>
-        </div>
+        </article>
     )
 }
 export default Offer;

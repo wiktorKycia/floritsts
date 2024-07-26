@@ -13,7 +13,7 @@ function App() {
             <Main>
                 <ContentSection title="Bestsellers of 2024">
                     <Offer
-                        imgSrc={flower1}
+                        image={flower1}
                         text="Flower Bouquet"
                     />
                 </ContentSection>
