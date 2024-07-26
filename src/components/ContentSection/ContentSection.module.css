@@ -1,0 +1,27 @@
+.section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+    color: var(--color2);
+    background-color: var(--color1);
+    transition: all 550ms;
+}
+.h2
+{
+    padding: 48px 0;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px
+}

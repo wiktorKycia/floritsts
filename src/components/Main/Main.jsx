@@ -1,7 +1,12 @@
+import HeroSection from "../HeroSection/HeroSection.jsx";
 
-function Main() {
+
+function Main(props) {
     return(
-        <main></main>
+        <main>
+            <HeroSection/>
+            {props.children}
+        </main>
     );
 }
 export default Main;
