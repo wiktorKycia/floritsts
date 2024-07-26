@@ -1,0 +1,15 @@
+.section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+    color: var(--color2);
+    background-color: var(--color1);
+    box-shadow: 0 0 10px black;
+    transition: all 550ms;
+    position: relative;
+    top: 0
+}
