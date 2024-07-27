@@ -1,4 +1,5 @@
 import styles from './Offer.module.css';
+import PropTypes from 'prop-types';
 
 function Offer(props)
 {
@@ -11,5 +12,13 @@ function Offer(props)
             </div>
         </article>
     )
+}
+Offer.propTypes = {
+    image: PropTypes.string,
+    text: PropTypes.string
+}
+Offer.defaultProps = {
+    image: "./assets/flower1.jpg",
+    text: "Flower Bouquet"
 }
 export default Offer;
